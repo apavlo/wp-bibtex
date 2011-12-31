@@ -1,0 +1,38 @@
+CHANGE LOG:
+
+v.0.9.3 - 31 october 2007
+  - improve regex and URL detection
+
+v.0.9.2 - 29 october 2007
+  - added error message if cache file cannot be created
+  - fix URL parsing to support presence ?
+  - fix toggle function to support colon in bibtex key
+
+v.0.9 - 29 october 2007 
+  - source file can now be a URL (useful if you want to manage your bibliography
+    with systems like citeulike.org or bibsonomy.org)
+  - added sorting (by default on year descending)
+
+v.0.8 - 11 october 2007
+  - now use wp_register_script and wp_enqueue_script to load the jquery library
+    - this is important to avoid loading several times when other scripts declare it
+  - added a fix to enable to correctly work in presence of other libraries
+    - now is tested on K2 theme
+
+v.0.7 - 23 april 2007:
+  - intermediate release with the following addition:
+    - moving away from scriptacolous in favour of jquery javascript library
+    - using template power in order to generate the various bibtex entries
+    - HTML code in external template file bibentry-html.tpl, easier to customize  
+    - nicer formatting for bibtex code
+
+v.0.6 - 22 april 2007: 
+   - added readme.txt in order to correctly integrate with new plugin browser
+     http://wordpress.org/extend/plugins/bib2html/
+
+v.0.5 - 14 march 2007:
+   - fixed bug affecting the deny option (not working with multiple types)
+   
+v.0.4:
+   - added key option to enable syntax [bibtex file=filename key=bibtexItemKey]
+   

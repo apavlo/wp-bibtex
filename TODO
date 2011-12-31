@@ -1,0 +1,8 @@
+
+TODO:
+- add admin interface for setting parameters
+-- TTL for cache
+- add option value=(attrName,attrValue) - Patrick
+- sorting
+- manage doi and pdf attributes - Cristiana
+- filter by author and by keyword - Nemo 
